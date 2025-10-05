@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'app' }
+    agent any
     environment {
         DOCKERHUB_USER = 'uatcorextech'
         IMAGE_NAME = 'webapp'
