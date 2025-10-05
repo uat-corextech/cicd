@@ -1,0 +1,1 @@
+FROM  uatcorextech/nginx:1.2
